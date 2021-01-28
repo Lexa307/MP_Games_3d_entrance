@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,initial-scale=1.0 ">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>3d MP Games demo</title>
+    <style>
+        body, html{
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        overflow: hidden;
+        }
+        .bg{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            overflow:hidden;
+            background-size:100% 100%;
+            background-image: url("img/bg2.png");
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <script src="js/lib/three.min.js"></script>
+    <script src="js/lib/GLTFLoader.js"></script>
+    <script src="js/lib/OrbitControls.js"></script>
+    <script src="js/lib/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+    <div class="bg">
+    </div>
+</body>
+</html>
